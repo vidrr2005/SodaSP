@@ -23,10 +23,11 @@
   margin-right: 30px;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .navbar-nav {
     font-size: 1rem;
   }
+
 }
 
 @media (max-width: 991px) {
@@ -40,35 +41,80 @@
   .linkFinal {
     margin-bottom: 20px;
   }
+
+}
+
+@media (min-width: 991px) {
+  .contenedorHeader h1{
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .contenedorHeader h1 {
+    font-size: 30px;
+  }
+  .d-block {
+    margin-bottom: 20px;
+  }
+}
+
+h5 {
+  float: right;
+  margin-top: 13%;
+  font-family: 'Asul', sans-serif;
 }
 /* ///////////////////////////// */
 
 /* HEADER WITH TITLE */
-.titleHeader h1 {
-  font-family: 'Alatsi', sans-serif;
-  font-size: 4rem;
-  color: #0B4619;
-  z-index: 3;
-  position: absolute;
-  left: 400px;
+.fotoHeader {
+  width: 100%;
 }
 
+.contenedorHeader {
+  display: inline-block;
+  position: absolute;
+  left: 28%;
+  background-color: #ffff;
+  top: 25%;
+  border: 4px solid black;
+}
+
+.contenedorHeader h1{
+  padding: 30px;
+  font-family: 'Asul', sans-serif;
+  color: #116530;
+}
+
+
 .titleHeader {
-  height: 800px;
   text-align: center;
-  padding-top: 100px;
+}
+
+
+/* CAROUSEL */
+.carousel-item{
+  text-align: center;
   background: #E8E8CC;
 }
 
-.forkImg {
-  position: absolute;
-  transform: rotate(90deg);
-  height: 150%;
-  bottom: 10px;
-  right: 450px;
-  z-index: 2;
+.galloFoto, .casadoFoto, .NuggetsFoto {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+  float: right;
+  margin-top: 50px;
+  margin-right: 70px;
 }
 
-.segundoRenglon {
-  top: 250px;
+
+.carousel-item h1{
+  font-family: 'Kaisei Decol', serif;
+}
+
+.textoCarousel {
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
 }

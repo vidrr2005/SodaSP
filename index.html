@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="styles.css">
   <title>Soda Saint Paul</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Asul&family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <nav class="navbar navbar-dark navbar-expand-lg ">
-    <a href="#" class="navbar-brand"> <img src="logo sp.png" class="logonavbar" alt=""> </a>
+    <a href="#" class="navbar-brand"> <img src="Fotos/logo sp - copia.png" class="logonavbar" alt="">
+      <h5> Saint Paul College </h5>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#responsiveButton" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,17 +27,72 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"> <a href="#" class="nav-link linkInicio">Inicio</a> </li>
         <li class="nav-item"> <a href="#" class="nav-link">Menú</a> </li>
-        <li class="nav-item"> <a href="#" class="nav-link">Precios</a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Comidas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="desayunos.html">Desayunos</a></li>
+            <li><a class="dropdown-item" href="#">Snacks</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Almuerzos</a></li>
+          </ul>
+        </li>
         <li class="nav-item"> <a href="#" class="nav-link linkFinal">Contáctenos</a> </li>
       </ul>
     </div>
   </nav>
+  <!-- header -->
+  <div class="titleHeader">
+    <img src="Fotos/soda.jpeg" class="fotoHeader" alt="">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col-sm-6 contenedorHeader">
+        <h1>Bienvenido a la <br>soda virtual</h1>
+      </div>
+      <div class="col">
+      </div>
+    </div>
 
-<div class="titleHeader">
+  </div>
+  <!-- Carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="textoCarousel">
+          <h1>Desayunos</h1>
+          <p>Tenemos deliciosos <br> desayunos desde huevo <br> y gallo pinto hasta <br> wraps y burritos</p>
+        </div>
 
-  <h1>Bienvenido a la soda virtual</h1>
-
-</div>
+        <img src="Fotos/Gallo_pinto.png" class="galloFoto d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <div class="textoCarousel">
+          <h1>Almuerzos</h1>
+          <p>Una gran variedad <br> de almuerzos como: <br> ensaladas, casados, sopas,etc. </p>
+        </div>
+        <img src="Fotos/casado-costa-rican-lunch.jpg" class="casadoFoto d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <div class="textoCarousel">
+          <h1>Snacks</h1>
+          <p>Sabrosos snacks <br> para todos los antojos, <br> tenemos pizza, nuggets, <br> hamburguesas, papas francesas <br> y todo lo que deseas.</p>
+        </div>
+        <img src="Fotos/Chicken nuggets.jpg" class="NuggetsFoto d-block" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script type="text/javascript" src="index.js">
