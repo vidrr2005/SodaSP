@@ -71,7 +71,7 @@ h5 {
 .fotoHeader {
   width: 100%;
 }
-
+/*
 .contenedorHeader {
   display: inline-block;
   position: absolute;
@@ -90,20 +90,20 @@ h5 {
 
 .titleHeader {
   text-align: center;
-}
+} */
 
 
 /* CAROUSEL */
 .carousel-item{
   text-align: center;
-  background: #E8E8CC;
+   background-image: url("Fotos/Pattern 3.png");
 }
 
 .galloFoto, .casadoFoto, .NuggetsFoto {
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15%;
+  border-radius: 7%;
   /* float: right;
   margin-top: 50px;
   margin-right: 70px; */
@@ -116,4 +116,11 @@ h5 {
 
 .carousel-item .row {
   padding: 10%;
+}
+
+
+/* DESAYUNOS */
+.col-4 {
+  background-color: red;
+  display: inline-block;
 }
