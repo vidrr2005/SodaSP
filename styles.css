@@ -50,14 +50,22 @@
   }
 }
 
+
 @media (max-width: 500px) {
-  .contenedorHeader h1 {
-    font-size: 30px;
+  .textoCarousel {
+    font-size: 70%;
+    }
+  .textoCarousel h1 {
+    font-size: 150%;
+  }
   }
   .d-block {
     margin-bottom: 20px;
   }
 
+  .fotoHeader {
+    content: url("Fotos/Fondo web cel.png")
+  }
 }
 
 h5 {
@@ -68,8 +76,15 @@ h5 {
 /* ///////////////////////////// */
 
 /* HEADER WITH TITLE */
+
 .fotoHeader {
   width: 100%;
+}
+
+@media (min-width: 501px) {
+  .fotoHeader {
+    content: url("Fotos/Fondo web desktop updated.png")
+  }
 }
 /*
 .contenedorHeader {
@@ -96,8 +111,23 @@ h5 {
 /* CAROUSEL */
 .carousel-item{
   text-align: center;
-   background-image: url("Fotos/Pattern 3.png");
 }
+
+.carousel-item {
+  background-image: url("Fotos/mancha azul2.png");
+  background-size: 140%;
+}
+
+/* @media (min-width: 500px) {
+.textoCarousel {
+  font-size: 120%;
+}
+} */
+/* @media (min-width: 500px) {
+.textoCarousel h1 {
+  font-size: 250%;
+}
+} */
 
 .galloFoto, .casadoFoto, .NuggetsFoto {
   width: 50%;
