@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  background-color: #04AE51;
+  background-color: #116530;
 }
 
 .navbar-brand {
@@ -66,9 +66,9 @@
   .fotoHeader {
     content: url("Fotos/Fondo web cel.png")
   }
+}
 
-
-.navbarh5 {
+h5 {
   float: right;
   margin-top: 13%;
   font-family: 'Asul', sans-serif;
@@ -148,17 +148,9 @@
   padding: 10%;
 }
 
+
 /* DESAYUNOS */
-
-
-
-
-
-.carddesayuno {
-  margin: 10% 0 20% 0;
-}
-
-
-.imgcard {
-  background-color: #FFEF82;
+.col-4 {
+  background-color: red;
+  display: inline-block;
 }
