@@ -27,13 +27,13 @@
   .navbar-nav {
     font-size: 1rem;
   }
-
 }
 
 @media (max-width: 991px) {
   .nav-link {
     margin-left: 50px;
   }
+
   .linkInicio {
     margin-top: 20px;
   }
@@ -41,42 +41,54 @@
   .linkFinal {
     margin-bottom: 20px;
   }
-
 }
 
 @media (min-width: 991px) {
-  .contenedorHeader h1{
+  .contenedorHeader h1 {
+    font-size: 4rem;
+  }
+
+  .textoCarousel {
+    font-size: 2rem;
+  }
+
+  .textoCarousel h1 {
     font-size: 4rem;
   }
 }
 
-
 @media (max-width: 500px) {
   .textoCarousel {
-    font-size: 70%;
-    }
+    font-size: 90%;
+    margin-bottom: 10px;
+  }
+
   .textoCarousel h1 {
-    font-size: 150%;
-  }
-  }
-  .d-block {
-    margin-bottom: 20px;
+    font-size: 180%;
+    margin-bottom: 10px;
   }
 
-  .fotoHeader {
-    content: url("Fotos/Fondo web cel.png")
+  .desayunoFoto, .almuerzoFoto, .snackFoto {
+    width: 70%;
   }
+}
 
+.d-block {
+  margin-bottom: 20px;
+}
+
+.fotoHeader {
+  content: url("Fotos/Fondo web cel.png")
+}
 
 .navbarh5 {
   float: right;
   margin-top: 13%;
   font-family: 'Asul', sans-serif;
 }
+
 /* ///////////////////////////// */
-
 /* HEADER WITH TITLE */
-
 .fotoHeader {
   width: 100%;
 }
@@ -85,7 +97,12 @@
   .fotoHeader {
     content: url("Fotos/Fondo web desktop updated.png")
   }
+
+  .desayunoFoto, .almuerzoFoto, .snackFoto {
+    width: 50%;
+  }
 }
+
 /*
 .contenedorHeader {
   display: inline-block;
@@ -106,15 +123,13 @@
 .titleHeader {
   text-align: center;
 } */
-
-
 /* CAROUSEL */
-.carousel-item{
+.carousel-item {
   text-align: center;
 }
 
-.carousel-item {
-  background-image: url("Fotos/mancha azul2.png");
+.carousel {
+  background-image: url("Fotos/mancha azul.png");
   background-size: 140%;
 }
 
@@ -128,9 +143,7 @@
   font-size: 250%;
 }
 } */
-
-.galloFoto, .casadoFoto, .NuggetsFoto {
-  width: 50%;
+.desayunoFoto, .almuerzoFoto, .snackFoto {
   margin-left: auto;
   margin-right: auto;
   border-radius: 7%;
@@ -139,8 +152,7 @@
   margin-right: 70px; */
 }
 
-
-.carousel-item h1{
+.carousel-item h1 {
   font-family: 'Kaisei Decol', serif;
 }
 
@@ -149,15 +161,9 @@
 }
 
 /* DESAYUNOS */
-
-
-
-
-
-.carddesayuno {
+.card {
   margin: 10% 0 20% 0;
 }
-
 
 .imgcard {
   background-color: #FFEF82;
