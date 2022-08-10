@@ -168,3 +168,22 @@
 .imgcard {
   background-color: #FFEF82;
 }
+
+.footer {
+  background-color: #04AE51;
+}
+
+.h1Footer {
+  color: #fcf202;
+  font-size: 250%;
+}
+
+.footer h1 {
+  font-family: 'Asul', sans-serif;
+}
+
+@media (max-width: 500px) {
+  .h1Footer {
+    font-size: 200%;
+  }
+}
