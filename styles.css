@@ -174,8 +174,8 @@
 }
 
 .h1Footer {
-  color: #fcf202;
-  font-size: 250%;
+  color: black;
+  font-size: 200%;
 }
 
 .footer h1 {
@@ -184,6 +184,10 @@
 
 @media (max-width: 500px) {
   .h1Footer {
-    font-size: 200%;
+    font-size: 130%;
   }
+}
+
+.footer p {
+  font-size: 90%;
 }
